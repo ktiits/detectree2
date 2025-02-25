@@ -12,7 +12,6 @@ setup(
     test_suite="detectree2.tests.test_all.suite",
     install_requires=[
         "pyyaml>=5.1",
-        "GDAL>=1.11",
         "numpy",
         "rtree",
         "proj",
@@ -21,8 +20,8 @@ setup(
         "pygeos",
         "shapely",
         "geopandas",
-        "rasterio==1.3a3",
-        "fiona==1.9.6",
+        "rasterio",
+        "fiona",
         "pycrs",
         "descartes",
         "detectron2@git+https://github.com/facebookresearch/detectron2.git",
